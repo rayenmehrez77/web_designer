@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Nunito+Sans|Poppins|Source+Code+Pro&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to left, #fff, #a5b1c2);
+}
+
+header {
+  background-image: url(https://images.unsplash.com/photo-1472289065668-ce650ac443d2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
+  height: 50px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+header h1 {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  color: #f1f2f6;
+  word-spacing: 10px;
+  letter-spacing: 2px;
+}
+
+.title {
+  text-align: center;
+}
+
+.color-1 {
+  background-color: #2d5dcc;
+}
+.color-2 {
+  background-color: #d957d9;
+}
+.color-3 {
+  background-color: #4fe0b0;
+}
+.color-4 {
+  background-color: #efd9ca;
+}
+
+.grid-color {
+  display: grid;
+  grid-template: repeat(4, 200px) / repeat(3, 100);
+  grid-row-gap: 10px;
+  padding: 20px;
+}
+
+.box-1 {
+  width: 70%;
+  height: 30%;
+  margin: 0 auto;
+  border: 2px solid gray;
+  margin: 100px auto;
+  padding: 10px 0 20px 20px;
+  background-image: url(https://images.unsplash.com/photo-1475414149481-0ee5f7a27ea1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
+}
+
+.box-1.color {
+  margin: 10px;
+}
+
+h2 {
+  position: sticky;
+}
+.box-1 h2,
+.box-2 h2,
+.box-3 h2:nth-child(1) {
+  text-align: center;
+  letter-spacing: 0.02em;
+  font-weight: bold;
+  font-size: 30px;
+  color: hsl(0, 120%, 50%);
+  text-transform: uppercase;
+  text-decoration: underline;
+  position: sticky;
+}
+
+.hex {
+  text-align: center;
+  color: rgba(0, 0, 0, 1);
+}
+
+/* Box Of Fonts*/
+
+.box-2 {
+  width: 70%;
+  height: 80vh;
+  margin: 10px auto;
+  border: 2px solid gray;
+  background-image: url(https://images.unsplash.com/photo-1509664158680-07c5032b51e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
+}
+
+.grid-font {
+  display: grid;
+  grid-template-columns: repeat(2, 450px);
+  grid-template-rows: repeat(2, 200px);
+  grid-gap: 10px;
+  margin: 0 10px;
+}
+
+.box-2 .font-1 p {
+  font-family: 'Source Code Pro', monospace;
+}
+
+.box-2 .font-1 h3 {
+  font-family: 'Source Code Pro', monospace;
+  text-decoration: underline;
+}
+
+.box-2 .font-2 p {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.box-2 .font-2 h3 {
+  font-family: 'Nunito Sans', sans-serif;
+  text-decoration: underline;
+}
+
+.box-2 .font-3 p {
+  font-family: 'Poppins', sans-serif;
+}
+
+.box-2 .font-3 h3 {
+  font-family: 'Poppins', sans-serif;
+  text-decoration: underline;
+}
+/* Box Of Style*/
+
+.box-3 {
+  width: 70%;
+  height: 80%;
+  margin: 10px auto;
+  border: 2px solid gray;
+  background-image: url(https://images.unsplash.com/photo-1492725764893-90b379c2b6e7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
+}
+
+.container {
+  display: block;
+  padding: 20px 40px;
+}
